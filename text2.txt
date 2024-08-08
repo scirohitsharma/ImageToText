@@ -1,0 +1,14 @@
+1. Desktop-Based Interface Design:
+e Framework: Tkinter
+e Components:
+1. Image Upload Button: For selecting and uploading image files.
+2. Text Display Area: To show the extracted text.
+3. Processing Status Indicator: To indicate the OCR processing status.
+2. Image Preprocessing Module
+¢ Purpose: To enhance the quality of the input image for better OCR accuracy.
+¢« Technology: OpenCV, Pillow
+e Components:
+1. Noise Reduction: Removes noise from the image using techniques like Gaussian blur.
+2. Thresholding: Converts the image to a binary image for better text extraction.
+3. Skew Correction: Detects and corrects any skew in the image.
+4. Resizing and Normalization: Adjusts the image size and normalizes pixel values.
